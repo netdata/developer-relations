@@ -129,8 +129,11 @@ Whispers are messages that are only visible to the group members. This functiona
 
 # How to respond to a user
 
+
 - Write short and sweet responses. No need to write a lot, but be kind.
 - Don’t be too short; Avoid “Yes” and “Yes, thanks”. 
+- Be **honest**, if you don't know something, say so. If you need to do some additional research or you need the help of a colleague, great, ping them. Nobody expects you to be omnipotent and omniscient.
+- Share the debugging experience with the user, share what you did and did or didn't work. Our users are engineers, which mean that they are curious people. They are as much interested in solving the problem as they are interested in understanding what went wrong and how you solved it.
 - Address all the points of the users. Using bullet points works for everyone.
 - Make sure you acknowledge how they feel.
     - e.g “I understand that this is frustrating, but don’t worry, we are on top of it!”

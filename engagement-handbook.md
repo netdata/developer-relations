@@ -4,7 +4,7 @@
 
 This is a **live** document. Expect it to change constantly as we enrich it with feedback and insights from the team.
 
-If you have an idea/suggestion/piece of feedback, simply open an issue!
+If you have an idea/suggestion/piece of feedback, simply [open an issue](https://github.com/netdata/developer-relations/issues/new)!
 
 # Introduction
 
@@ -56,12 +56,25 @@ There are a couple of reasons why we want to change the current paradigm:
 
 # Support
 
-#TODO: What is the goal of the support category
+Netdata currently provides **community-driven** support, which means that we are here to help and make our users successful, but there are no SLAs involved. The products are provided `as-is` and we help on a `best-effort` basis.
 
-According to the community user journey at the start of the handbook, all platforms lead to the Support category.
+## Support Channels
+
+The main and **only** support channel that we currently have is Discourse. This means that if the user needs to send sensitive information to the team, the user should use Discourse *direct messages*.
+
+Support is being given on the `Support` category of the forum, which is further divided into:
+- `Netdata Agent` sub-category
+- `Netdata Cloud` sub-category
+
+Finally, we use tags to further segment the issues and make the future reference easier.
+
+**Tags**:
+UI, Account Management, Installation, Configuration, Collectors, Exporters, Claiming, database, registry, health, ACLK
+> Last update 11/18/20
 
 
 ## Forum Tools 
+
 ### Whispers
 Whispers are messages that are only visible to the group members. This functionality can be used to chat privately on the forum topic, without having to use another platform (Netdata’s slack channel). This enables us to have all the information regarding the particular subject in one place so that future Netdata team members can have access. (If the chat happened over slack, the information would have been lost).
 

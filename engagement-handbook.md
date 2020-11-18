@@ -19,6 +19,46 @@ The community provides us with:
 - **Rapid Learning**: Helping users out is an easy and fast way to get to know our  products. Understanding our products from a user perspective is essential so as we can "get" what we are trying to achieve as a whole. We are engineers, not code delivery cogs.
 - **Accomplishment**: Sure it's cool to implement the new "system overview" feature, but what's **even cooler** is to interact with happy users who are **grateful** for the value they get from you.
 
+- [Disclaimer](#disclaimer)
+- [Introduction](#introduction)
+- [Support at Netdata](#support-at-netdata)
+- [Forum - Github](#forum---github)
+  - [Forum](#forum)
+  - [Github](#github)
+  - [Why we do this change](#why-we-do-this-change)
+- [Support](#support)
+  - [Support Channels](#support-channels)
+  - [Forum Tools](#forum-tools)
+    - [Whispers](#whispers)
+    - [Topic Templates](#topic-templates)
+    - [Discourse Groups](#discourse-groups)
+    - [Groups and notifications](#groups-and-notifications)
+    - [Moderating on Discourse](#moderating-on-discourse)
+    - [Assign a topic](#assign-a-topic)
+  - [How to handle an issue](#how-to-handle-an-issue)
+  - [How to triage an issue](#how-to-triage-an-issue)
+- [How to respond to a user](#how-to-respond-to-a-user)
+  - [Example for points (1,2)](#example-for-points-12)
+  - [Example for point 3](#example-for-point-3)
+  - [Point 4 - Empathy](#point-4---empathy)
+    - [Empathy](#empathy)
+  - [Keep the user in the loop](#keep-the-user-in-the-loop)
+- [Example answers to common situations](#example-answers-to-common-situations)
+  - [Debugging an issue](#debugging-an-issue)
+    - [Reinstall Netdata](#reinstall-netdata)
+    - [Update Netdata](#update-netdata)
+  - [Request more information](#request-more-information)
+    - [Ask for logs](#ask-for-logs)
+    - [Ask for environment details](#ask-for-environment-details)
+    - [Ask for browser program/version](#ask-for-browser-programversion)
+  - [Highlights](#highlights)
+    - [First PR](#first-pr)
+  - [FAQ](#faq)
+    - [Why Netdata is Free](#why-netdata-is-free)
+    - [Do you store data?](#do-you-store-data)
+    - [Metric Correlations](#metric-correlations)
+    - [Windows Support](#windows-support)
+    - [On-Premise](#on-premise)
 
 # Support at Netdata
 
@@ -80,6 +120,12 @@ Whispers are messages that are only visible to the group members. This functiona
 
 ➡️  To create a whisper, follow the [Discourse documentation](https://meta.discourse.org/t/how-do-i-create-a-whisper-post/44247).
 
+### Topic Templates
+
+We use topic templates for some of the categories on our forum. Visit the [forum copy]() document to find all the templates that we have implemented.
+
+Read more about topic templates on [meta.discourse](https://meta.discourse.org/t/what-are-topic-templates/38295)
+
 ### Discourse Groups
 - Product 
 - Netdata Cloud Backend
@@ -124,7 +170,7 @@ Whispers are messages that are only visible to the group members. This functiona
    2. github.com/netdata-cloud: Bugs for Netdata Cloud
    3. community.netdata.cloud: Support, Feature Requests, Discussions
 2. Verify that the topic belongs to the correct category, sub-category and is tagged properly.
-3. Verify that the user has used the topic's [template](#):
+3. Verify that the user has used the topic's [template](#topic-templates):
    1. If not and it is relevant, ask her/him to fill out the missing information so you speed up the debugging process.
 4. [Respond to the user](#how-to-respond-to-a-user)
 5. Assign the topic if:
@@ -132,7 +178,7 @@ Whispers are messages that are only visible to the group members. This functiona
    2. You are a team leader and you want a team member to handle a particular topic.
 6. If the topic is a question or request for assistance, [triage the issue](#how-to-triage-an-issue)
 
-# How to triage an issue
+## How to triage an issue
 
 1. Search the forum in case the question has been asked before
 2. Try to find the answer in our docs and/or GitHub.
@@ -229,7 +275,7 @@ Of course, if you agree with their verdict, say so. It will only improve the rel
 4. Even if the bug hasn’t yet been picked up, just let them know that it’s under consideration but due to changing priorities, it has been delayed. The user wants honesty and usually, the user is not irrational.
 
 
-# Example answers to common questions and events
+# Example answers to common situations
 
 ## Debugging an issue
 

@@ -2,11 +2,17 @@
 
 # Introduction
 
-The most important part of the the community support(and any kind of support really) journey is to acknowledge the issue that the user is facing, even if we don’t currently have a fix at hand. We can offer basic troubleshooting to get the discussion going (e.g installation method) and then inform the user that we are investigating the issue.
+Netdata started as an open-source project back in 2016 and since then we have only gone upwards. Community and open-source are in our DNA, having amassed a community of loyal fans that no money can buy. 
 
-It’s simple really, we want to be honest with the users and share whatever information we have (or it’s absence). Showcase that we care and share the debugging experience with him/her. Chances are that he/she is an engineer as well, thus he/she is interested in finding a solution not for utility but also as an engineer.
+This is unique and enormously valuable. It is our duty to maintain this great tradition and grow the community in any way possible. 
 
-Of course, we are not referring to cases where the tool breaks down and important business processes are at stake, but rather common issues that produce some discomfort to the UX.
+The community provides us with:
+- **Word of mouth**: Thus far the Netdata Agent has been downloaded about **4 million** times without any significant marketing effort. Happy users talk to each other.
+- **Product Feedback**: We are rapidly developing our product, and without the rapid feedback loop a community can provide, we essentially are blind. 
+- **Bugs**: Rapid discovery of bugs before they create a major production incident. **Trust** and **Credibility** are so hard to create and they take a split-second to be demolished. 
+- **Rapid Learning**: Helping users out is an easy and fast way to get to know our  products. Understanding our products from a user perspective is essential so as we can "get" what we are trying to achieve as a whole. We are engineers, not code delivery cogs.
+- **Accomplishment**: Sure it's cool to implement the new "system overview" feature, but what's **even cooler** is to interact with happy users who are **grateful** for the value they get from you.
+
 
 # Support at Netdata
 
@@ -70,6 +76,14 @@ Whispers are messages that are only visible to the group members. This functiona
 
 
 ### Groups and notifications
+
+- All engineers are subscribed by default to [watch](#watch-a-category) the `Support` category, every engineer should jump in and help users regardless if the question falls inside his/her engineering department.
+- All engineers are subscribed by default to [track](#track-a-category) the following categories:
+  -  `Feature Requests`
+  -  `Monitoring & Troubleshooting with Netdata`
+-  The @netdata-agent group is subscribed to [watch](#watch-a-category) the `Netdata Agent Development & Integrations` category.
+-  The @netdata-marketing group is subscribed to [track](#track-a-category) the categories:
+   -  
 
 
 ### Moderating on Discourse

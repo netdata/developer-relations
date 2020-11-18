@@ -1,5 +1,11 @@
 > Community Relations are 80% Acknowledging an issue and 20% fixing it. 
 
+# Disclaimer
+
+This is a **live** document. Expect it to change constantly as we enrich it with feedback and insights from the team.
+
+If you have an idea/suggestion/piece of feedback, simply open an issue!
+
 # Introduction
 
 Netdata started as an open-source project back in 2016 and since then we have only gone upwards. Community and open-source are in our DNA, having amassed a community of loyal fans that no money can buy. 
@@ -62,7 +68,6 @@ Whispers are messages that are only visible to the group members. This functiona
 ➡️  To create a whisper, follow the [Discourse documentation](https://meta.discourse.org/t/how-do-i-create-a-whisper-post/44247).
 
 ### Discourse Groups
-- Community 
 - Product 
 - Netdata Cloud Backend
 - Netdata FE
@@ -81,9 +86,13 @@ Whispers are messages that are only visible to the group members. This functiona
 - All engineers are subscribed by default to [track](#track-a-category) the following categories:
   -  `Feature Requests`
   -  `Monitoring & Troubleshooting with Netdata`
+  -  `Community Guides`
 -  The @netdata-agent group is subscribed to [watch](#watch-a-category) the `Netdata Agent Development & Integrations` category.
 -  The @netdata-marketing group is subscribed to [track](#track-a-category) the categories:
-   -  
+   -  `Community Guides`
+   -  `Announcements and Roadmap`
+   -  `Community`
+   -  `Netdata Content`
 
 
 ### Moderating on Discourse

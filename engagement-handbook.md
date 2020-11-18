@@ -49,7 +49,7 @@ There are a couple of reasons why we want to change the current paradigm:
 According to the community user journey at the start of the handbook, all platforms lead to the Support category.
 
 
-## Tools 
+## Forum Tools 
 ### Whispers
 Whispers are messages that are only visible to the group members. This functionality can be used to chat privately on the forum topic, without having to use another platform (Netdata’s slack channel). This enables us to have all the information regarding the particular subject in one place so that future Netdata team members can have access. (If the chat happened over slack, the information would have been lost).
 
@@ -61,14 +61,21 @@ Whispers are messages that are only visible to the group members. This functiona
 - Netdata Cloud Backend
 - Netdata FE
 - Netdata Agent
-- SREs
+- SRE/SET
+- Marketing
   
-Limit mention of engagement groups to only Netdata team group
-- Either through group settings or make groups visible only to team members.
+- Only Admins and [Moderators](#moderating-on-discourse) can [message](#message-a-discourse-group) and [mention](#mention-a-discourse-group) a group.
+- Each team member belongs to a discourse group according to the internal company structure
+- Team member groups are **only** visible to Admins, Moderators and group members.
 
-![](https://i.imgur.com/Oh5L5fd.png)
 
 ### Groups and notifications
+
+
+### Moderating on Discourse
+
+- **All** Netdata employees are Moderators
+- You are expected to spend 10m of your time to read the [Discourse Moderation Guide](https://meta.discourse.org/t/discourse-moderation-guide/63116).
 
 ### Assign a topic
 

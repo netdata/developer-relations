@@ -72,7 +72,7 @@ Limit mention of engagement groups to only Netdata team group
 
 ### Assign a topic
 
-![](https://github.com/netdata/developer-relations/blob/handbook/assets/assign.png?raw=true]
+![](https://github.com/netdata/developer-relations/blob/handbook/assets/assign.png?raw=true)
 
 ## How to handle an issue
 

@@ -56,6 +56,7 @@ Limit mention of engagement groups to only Netdata team group
 - Address all the points of the users. Using bullet points works for everyone.
 - Make sure you acknowledge how they feel.
     - e.g “I understand that this is frustrating, but don’t worry, we are on top of it!”
+
 [Source](https://petros.blog/2020/11/13/words-matter/)
 
 ## Example for points (1,2)

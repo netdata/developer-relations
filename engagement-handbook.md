@@ -15,7 +15,7 @@ This is unique and enormously valuable. It is our duty to maintain this great tr
 The community provides us with:
 - **Word of mouth**: Thus far the Netdata Agent has been downloaded about **4 million** times without any significant marketing effort. Happy users talk to each other.
 - **Product Feedback**: We are rapidly developing our product, and without the rapid feedback loop a community can provide, we essentially are blind. 
-- **Bugs**: Rapid discovery of bugs before they create a major production incident. **Trust** and **Credibility** are so hard to create and they take a split-second to be demolished. 
+- **Quality Assurance**: Rapid discovery of bugs before they create a major production incident. **Trust** and **Credibility** are so hard to create and they take a split-second to be demolished. This is particularly true for the FOSS Netdata Agent. Netdata Cloud is being tested much more extensively before shipping new functionality.
 - **Rapid Learning**: Helping users out is an easy and fast way to get to know our  products. Understanding our products from a user perspective is essential so as we can "get" what we are trying to achieve as a whole. We are engineers, not code delivery cogs.
 - **Accomplishment**: Sure it's cool to implement the new "system overview" feature, but what's **even cooler** is to interact with happy users who are **grateful** for the value they get from you.
 
@@ -26,8 +26,10 @@ The community provides us with:
   - [Forum](#forum)
   - [Github](#github)
   - [Why we do this change](#why-we-do-this-change)
+- [Forum checklist](#forum-checklist)
 - [Support](#support)
   - [Support Channels](#support-channels)
+  - [Tags](#tags)
   - [Forum Tools](#forum-tools)
     - [Whispers](#whispers)
     - [Topic Templates](#topic-templates)
@@ -35,9 +37,10 @@ The community provides us with:
     - [Groups and notifications](#groups-and-notifications)
     - [Moderating on Discourse](#moderating-on-discourse)
     - [Assign a topic](#assign-a-topic)
-  - [How to handle an issue](#how-to-handle-an-issue)
-  - [How to triage an issue](#how-to-triage-an-issue)
-- [How to respond to a user](#how-to-respond-to-a-user)
+    - [Add an alternative email](#add-an-alternative-email)
+  - [How we handle an issue](#how-we-handle-an-issue)
+  - [How we triage an issue](#how-we-triage-an-issue)
+- [How we respond to users](#how-we-respond-to-users)
   - [Example for points (1,2)](#example-for-points-12)
   - [Example for point 3](#example-for-point-3)
   - [Point 4 - Empathy](#point-4---empathy)
@@ -72,10 +75,13 @@ Our core focus is to get as much feedback as possible, while offering a superb u
 
 While Github is where the community started, it limits us from a community management perspective. The Community Forums is a much better place to serve as the heart of the wider Netdata community, which encompasses all products, both open-source and closed-source. It also addresses a wider user base, which is not necessarily used to interact and work with Github.
 
+**We are currently migrating the core of our community from Github, to the [Community Forum](https://community.netdata.cloud)**
+
 ## Forum
 
 Each category has an *about* topic, where there is a paragraph about the goal of each category.
 
+ We should be know the goal of each category, so that we can spot topics that are irrelevant and place them into the correct categories.
 
 ## Github 
 - Used for Issue tracking on the 2 major Products:
@@ -92,13 +98,23 @@ There are a couple of reasons why we want to change the current paradigm:
 - Discourse, and any forum really, can evolve in an organic Knowledge base, where people can easily search and self-serve to solve their issues. Discussions organized in topics are much more easily parsable than closed and open GitHub issues.
 - A forum offers many more tools to properly manage a community, from addons and modules to contact details and direct messaging. A Github Repository is simply not built to be used as a forum.
 - A forum is more open and inviting to less technical people. There are netdata professional users that are experienced sysadmins and devops, but who may not have experience with GitHub and similar platforms, but they have used forums in the past.
-  
+
+# Forum checklist
+
+In order to facilitate the engagement with the community, please ensure that:
+- [ ] Your account is associated with the company email. This is required so you can automatically be added to the group named "Netdata team".
+  - [ ] You log in using the Google Oauth option.
+  - [ ] You log in using a username/password combination, but using the company email.
+  - [ ] You log in with another email, but you have [added an alternative email](#add-an-alternative-email).\
+- [ ] You request from an administrator or moderator to add you to the appropriate functional group.
+- [ ] Your account has a profile picture and a short bio.
+- [ ] You join the #discourse-support slack channel. All new topics and posts from the categories (support, support-agent, support-cloud) are mirrored there.
 
 # Support
 
-Netdata currently provides **community-driven** support, which means that we are here to help and make our users successful, but there are no SLAs involved. The products are provided `as-is` and we help on a `best-effort` basis.
-
 ## Support Channels
+
+We used to provide support via GtiGub Issues, but we are currently transitioning from GitHub to the Community, as discussed in [section above](#forum---github)
 
 The main and **only** support channel that we currently have is Discourse. This means that if the user needs to send sensitive information to the team, the user should use Discourse *direct messages*.
 
@@ -108,15 +124,15 @@ Support is being given on the `Support` category of the forum, which is further 
 
 Finally, we use tags to further segment the issues and make the future reference easier.
 
-**Tags**:
-UI, Account Management, Installation, Configuration, Collectors, Exporters, Claiming, database, registry, health, ACLK
-> Last update 11/18/20
+## Tags
+
+✅ A list of all the tags that we use can be found on the [Community forum](https://community.netdata.cloud/tags).
 
 
 ## Forum Tools 
 
 ### Whispers
-Whispers are messages that are only visible to the group members. This functionality can be used to chat privately on the forum topic, without having to use another platform (Netdata’s slack channel). This enables us to have all the information regarding the particular subject in one place so that future Netdata team members can have access. (If the chat happened over slack, the information would have been lost).
+Whispers are messages that are only visible to the group members. This functionality can be used to chat privately on the forum topic, without having to use another platform (Netdata’s slack channel). This enables the engineers to have all the information regarding the particular subject in one place so that future Netdata team members can easily access it. (If the chat happened over slack, the information would have been lost).
 
 ➡️  To create a whisper, follow the [Discourse documentation](https://meta.discourse.org/t/how-do-i-create-a-whisper-post/44247).
 
@@ -124,7 +140,7 @@ Whispers are messages that are only visible to the group members. This functiona
 
 We use topic templates for some of the categories on our forum. Visit the [forum copy]() document to find all the templates that we have implemented.
 
-Read more about topic templates on [meta.discourse](https://meta.discourse.org/t/what-are-topic-templates/38295)
+Read more about topic templates on [meta.discourse](https://meta.discourse.org/t/what-are-topic-templates/38295).
 
 ### Discourse Groups
 - Product 
@@ -141,7 +157,7 @@ Read more about topic templates on [meta.discourse](https://meta.discourse.org/t
 
 ### Groups and notifications
 
-- All engineers are subscribed by default to [watch](#watch-a-category) the `Support` category, every engineer should jump in and help users regardless if the question falls inside his/her engineering department.
+- All engineers are subscribed by default to [watch](#watch-a-category) the `Support` category. We should jump to threads that concern the components and products that we have expertise on.
 - All engineers are subscribed by default to [track](#track-a-category) the following categories:
   -  `Feature Requests`
   -  `Monitoring & Troubleshooting with Netdata`
@@ -157,13 +173,19 @@ Read more about topic templates on [meta.discourse](https://meta.discourse.org/t
 ### Moderating on Discourse
 
 - **All** Netdata employees are Moderators
-- You are expected to spend 10m of your time to read the [Discourse Moderation Guide](https://meta.discourse.org/t/discourse-moderation-guide/63116).
+- We are expected to be accustomed with moderating a Discourse forum. Reading the [Discourse Moderation Guide](https://meta.discourse.org/t/discourse-moderation-guide/63116) might help.
 
 ### Assign a topic
 
 ![](https://github.com/netdata/developer-relations/blob/handbook/assets/assign.png?raw=true)
 
-## How to handle an issue
+### Add an alternative email
+
+![](https://github.com/netdata/developer-relations/blob/handbook/assets/alternative.png?raw=true)
+
+## How we handle an issue
+
+As an engineer and Netdata team member:
 
 1. Verify that the issue belongs to the platform to where it is created:
    1. github.com/netdata: Bugs for Netdata Agent
@@ -178,7 +200,9 @@ Read more about topic templates on [meta.discourse](https://meta.discourse.org/t
    2. You are a team leader and you want a team member to handle a particular topic.
 6. If the topic is a question or request for assistance, [triage the issue](#how-to-triage-an-issue)
 
-## How to triage an issue
+## How we triage an issue
+
+As an engineer and Netdata team member:
 
 1. Search the forum in case the question has been asked before
 2. Try to find the answer in our docs and/or GitHub.
@@ -195,16 +219,16 @@ Read more about topic templates on [meta.discourse](https://meta.discourse.org/t
    3. If the user discuss something about features and how it should change/improve, maybe the @netdata-product is the appropriate group
 6. Until the group acknowledges the handover to a colleague, ensure that you keep the user updated regarding the status of his/her question.
 
-# How to respond to a user
+# How we respond to users
 
-
-- Write short and sweet responses. No need to write a lot, but be kind.
-- Don’t be too short; Avoid “Yes” and “Yes, thanks”. 
-- Be **honest**, if you don't know something, say so. If you need to do some additional research or you need the help of a colleague, great, ping them. Nobody expects you to be omnipotent and omniscient.
-- Share the debugging experience with the user, share what you did and did or didn't work. Our users are engineers, which mean that they are curious people. They are as much interested in solving the problem as they are interested in understanding what went wrong and how you solved it.
-- Address all the points of the users. Using bullet points works for everyone.
-- Make sure you acknowledge how they feel.
+- We write short and sweet responses. No need to write a lot, but we are kind.
+- Don’t be too short; We Avoid “Yes” and “Yes, thanks”. 
+- We are **honest**, if we don't know something, we say so. If we need to do some additional research or we need the help of a colleague, great, we ping them. Nobody expects us to be omnipotent and omniscient.
+- We share the debugging experience with the user, we share what you did and did or didn't work. Our users are engineers, which mean that they are curious people. They are as much interested in solving the problem as they are interested in understanding what went wrong and how you solved it.
+- We try to address all the points of the users. Using bullet points works for everyone.
+- We make sure you acknowledge how they feel.
     - e.g “I understand that this is frustrating, but don’t worry, we are on top of it!”
+
 [Source](https://petros.blog/2020/11/13/words-matter/)
 
 ## Example for points (1,2)
@@ -243,11 +267,12 @@ This response addresses all points entirely:
 3. I don’t know/will investigate → “This does not always happen, it does not let me do X”
 
 ## Point 4 - Empathy
-If the user goes ahead and contact us, through the forums or email, this means that the user got affected by our product, in either a positive or negative manner, but he/she got affected. 
 
-The user never fails, it’s always the fault of the design, which did not take into account the possibility of misuse.
+If the user goes ahead and contact us, through the forums or email, this means that the user got affected by our product, in either a positive or negative manner.
 
-So, it doesn’t matter what is the fault. For a split second, the user’s feelings got hurt and he got negative feelings because of our product. Let’s try to change that!
+The user never fails, it’s always the fault of the design, which did not take into account the possibility of a human error. There is an interesting [Stack Exchange](https://ux.stackexchange.com/questions/48471/is-it-always-the-fault-of-the-designers) answer regarding this notion.
+
+So, it doesn’t matter what is the fault. For a split second, the user’s feelings got hurt and he got negative feelings because of our product. **Let’s try to change that!**
 
 ### Empathy
 Empathy is the skill to be able to understand the feelings of another person. The thing is, it’s not very easy and when we do have it, we have to **actively communicate** it. **We have to show empathy.**
@@ -268,11 +293,12 @@ Of course, if you agree with their verdict, say so. It will only improve the rel
 
 ## Keep the user in the loop
 
-1. Keep customers up to date, even if their issue hasn’t been resolved.
-2. When it’s possible do the work for them.
-   1. e.g Open the GitHub issue instead of asking them to open one.
-3. Make sure you circle back to the user every few days, so that they know they haven’t been forgotten. 
-4. Even if the bug hasn’t yet been picked up, just let them know that it’s under consideration but due to changing priorities, it has been delayed. The user wants honesty and usually, the user is not irrational.
+1. We strive to keep the users up to date, even if their issue has not be resolved.
+2. When it's possible, it's better to do the work for them.
+   1. e.g We should open the GitHub issue in case we find a bug during the debugging of a user's issue.
+3. We ensure that we circle back to the user every few days, so that they know that we haven't forgotten about their issue.
+4. Even if we haven't got the time to pick up the bug, we should let the user know. We work in an industry where the rapid change of priorities is to be expected. Transparency again is key.
+
 
 
 # Example answers to common situations

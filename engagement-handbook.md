@@ -204,8 +204,8 @@ As an engineer and Netdata team member:
 
 As an engineer and Netdata team member:
 
-1. Search the forum in case the question has been asked before
-2. Try to find the answer in our docs and/or GitHub.
+1. It's better to start with searching the forum in case the question has been asked before
+2. Try to find the answer in our documentation and/or GitHub.
    1. Start with google since it could have been indexed, so you save time.
    2. If Google doesn't provide anything, search individually:
       1. https://learn.netdata.cloud

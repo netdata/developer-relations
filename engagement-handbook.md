@@ -143,6 +143,8 @@ We use topic templates for some of the categories on our forum. Visit the [forum
 Read more about topic templates on [meta.discourse](https://meta.discourse.org/t/what-are-topic-templates/38295).
 
 ### Discourse Groups
+
+Functional groups:
 - Product 
 - Netdata Cloud Backend
 - Netdata FE
@@ -150,6 +152,7 @@ Read more about topic templates on [meta.discourse](https://meta.discourse.org/t
 - SRE/SET
 - Marketing
   
+Notes: 
 - Only Admins and [Moderators](#moderating-on-discourse) can [message](#message-a-discourse-group) and [mention](#mention-a-discourse-group) a group.
 - Each team member belongs to a discourse group according to the internal company structure
 - Team member groups are **only** visible to Admins, Moderators and group members.
@@ -157,7 +160,7 @@ Read more about topic templates on [meta.discourse](https://meta.discourse.org/t
 
 ### Groups and notifications
 
-- All engineers are subscribed by default to [watch](#watch-a-category) the `Support` category. We should jump to threads that concern the components and products that we have expertise on.
+- All engineers are subscribed by default to [watch](#watch-a-category) the `Support` category. 
 - All engineers are subscribed by default to [track](#track-a-category) the following categories:
   -  `Feature Requests`
   -  `Monitoring & Troubleshooting with Netdata`

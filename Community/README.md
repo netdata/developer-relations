@@ -109,3 +109,10 @@ We are using Hubspot to offer feedback surveys. In order to activate Hubspot, we
 2) Follow this [guide](https://meta.discourse.org/t/hubspot-chat-integration/128777) and edit the `content security policy script src` whitelist .
 
 The tracking code for hubspot is already integrated into the main Netdata theme, so we don't need to edit the theme.
+
+# Community CRMs
+
+We are currently using 2 communityCRM to monitor the community and improve our tactical decision making. To re-activate the integrations, go to the platforms and follow the instructions in their respective integrations page.
+
+- SavannahHQ: https://savannahhq.com/
+- Orbit.love: https://app.orbit.love

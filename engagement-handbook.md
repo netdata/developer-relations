@@ -46,6 +46,7 @@ The community provides us with:
   - [Point 4 - Empathy](#point-4---empathy)
     - [Empathy](#empathy)
   - [Keep the user in the loop](#keep-the-user-in-the-loop)
+- [Documentation-first approach](#documentation-first-approach)
 - [Example answers to common situations](#example-answers-to-common-situations)
   - [Debugging an issue](#debugging-an-issue)
     - [Reinstall Netdata](#reinstall-netdata)
@@ -199,6 +200,7 @@ As an engineer and Netdata team member:
    1. You want to personally handle it, later on. So you respond to the user that you will reply later, you [assign](#assign-a-topic) it to **yourself** and the rest of the team knows that is being handled.
    2. You are a team leader and you want a team member to handle a particular topic.
 6. If the topic is a question or request for assistance, [triage the issue](#how-to-triage-an-issue)
+7. We have [documentation-first approach](#documentation-first approach)
 
 ## How we triage an issue
 
@@ -299,7 +301,21 @@ Of course, if you agree with their verdict, say so. It will only improve the rel
 3. We ensure that we circle back to the user every few days, so that they know that we haven't forgotten about their issue.
 4. Even if we haven't got the time to pick up the bug, we should let the user know. We work in an industry where the rapid change of priorities is to be expected. Transparency again is key.
 
+# Documentation-first approach
 
+Having great documentation is a great way to both improve the developer experience and lower the support load, as users can become successful even when they find friction. This way, our users are able to get the information that they need, without having to rely on the community or the netdata team to help them out.
+
+- When learning, use the docs.
+- When troubleshooting, use the docs
+- If something is missing, update the docs.
+
+Moreover, this approach **ensures that our documentation is always the single source of truth** and that users are aware of the docs that we have. 
+
+- We prefer to respond with a links to our docs whenever possible
+- If the docs are missing, we [create them](https://learn.netdata.cloud/contribute/documentation) and link the user to the PR.
+  - If the docs concern the closed-source Netdata Cloud, ping @joel who is heading our content and documentation efforts.
+
+Finally, if you encounter a particular support case that you believe has value, please ping @joel and let him know. It is possible that we will want to create some content to help more users (e.g a guide), so your help will be invaluable.
 
 # Example answers to common situations
 

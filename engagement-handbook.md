@@ -19,8 +19,11 @@ The community provides us with:
 - **Rapid Learning**: Helping users out is an easy and fast way to get to know our  products. Understanding our products from a user perspective is essential so as we can "get" what we are trying to achieve as a whole. We are engineers, not code delivery cogs.
 - **Accomplishment**: Sure it's cool to implement the new "system overview" feature, but what's **even cooler** is to interact with happy users who are **grateful** for the value they get from you.
 
+# Table of Contents
+
 - [Disclaimer](#disclaimer)
 - [Introduction](#introduction)
+- [Table of Contents](#table-of-contents)
 - [Support at Netdata](#support-at-netdata)
 - [Forum - Github](#forum---github)
   - [Forum](#forum)

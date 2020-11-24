@@ -10,6 +10,8 @@ If you have an idea/suggestion/piece of feedback, simply [open an issue](https:/
 
 Netdata started as an open-source project back in 2016 and since then we have only gone upwards. Community and open-source are in our DNA, having amassed a community of loyal fans that no money can buy. 
 
+The Community provides a trusted environment for our users, developers, and partners to get answers, share ideas, collaborate, and learn best practices to help make their time with us as successful as possible. Our employees play a very important role in the success of Netdata Community by welcoming new members, contributing helpful content, and building trusted relationships.
+
 This is unique and enormously valuable. It is our duty to maintain this great tradition and grow the community in any way possible. 
 
 The community provides us with:
@@ -49,7 +51,15 @@ The community provides us with:
   - [Point 4 - Empathy](#point-4---empathy)
     - [Empathy](#empathy)
   - [Keep the user in the loop](#keep-the-user-in-the-loop)
+  - [Dos and Dont's](#dos-and-donts)
 - [Documentation-first approach](#documentation-first-approach)
+- [Tips For Engaging In The Community](#tips-for-engaging-in-the-community)
+  - [Create Your Identity](#create-your-identity)
+  - [Share Your Knowledge & Build Your Career](#share-your-knowledge--build-your-career)
+  - [Like And Share Valuable Content](#like-and-share-valuable-content)
+  - [Join Relevant Groups](#join-relevant-groups)
+  - [Use Search](#use-search)
+  - [Suggest And Vote On Internal Ideas](#suggest-and-vote-on-internal-ideas)
 - [Example answers to common situations](#example-answers-to-common-situations)
   - [Debugging an issue](#debugging-an-issue)
     - [Reinstall Netdata](#reinstall-netdata)
@@ -113,6 +123,7 @@ In order to facilitate the engagement with the community, please ensure that:
 - [ ] You request from an administrator or moderator to add you to the appropriate functional group.
 - [ ] Your account has a profile picture and a short bio.
 - [ ] You join the #discourse-support slack channel. All new topics and posts from the categories (support, support-agent, support-cloud) are mirrored there.
+- [ ] You have familiarized yourself with the [Netdata Community Code of Conduct](https://learn.netdata.cloud/contribute/code-of-conduct) that govern interactions for all members.
 
 # Support
 
@@ -130,7 +141,11 @@ Finally, we use tags to further segment the issues and make the future reference
 
 ## Tags
 
-✅ A list of all the tags that we use can be found on the [Community forum](https://community.netdata.cloud/tags).
+✅ A list of all the tags that we use can be found on the [Community forum](https://community.netdata.cloud/tags). Please make sure that topics that you interact with are properly tagged for future reference.
+
+You have the power to edit user posts, so please go ahead and add any tags that may be missing. 
+
+To learn more about tags, you can read this [comprehensive guide to Discourse tags](https://meta.discourse.org/t/a-comprehensive-guide-to-discourse-tags/121041).
 
 
 ## Forum Tools 
@@ -234,7 +249,7 @@ As an engineer and Netdata team member:
 - We are **honest**, if we don't know something, we say so. If we need to do some additional research or we need the help of a colleague, great, we ping them. Nobody expects us to be omnipotent and omniscient.
 - We share the debugging experience with the user, we share what you did and did or didn't work. Our users are engineers, which mean that they are curious people. They are as much interested in solving the problem as they are interested in understanding what went wrong and how you solved it.
 - We try to address all the points of the users. Using bullet points works for everyone.
-- We make sure you acknowledge how they feel.
+- We make sure that we acknowledge how they feel.
     - e.g “I understand that this is frustrating, but don’t worry, we are on top of it!”
 
 [Source](https://petros.blog/2020/11/13/words-matter/)
@@ -307,6 +322,17 @@ Of course, if you agree with their verdict, say so. It will only improve the rel
 3. We ensure that we circle back to the user every few days, so that they know that we haven't forgotten about their issue.
 4. Even if we haven't got the time to pick up the bug, we should let the user know. We work in an industry where the rapid change of priorities is to be expected. Transparency again is key.
 
+## Dos and Dont's 
+
+- We don't share company and financial secrets
+  - Revenue, Growth, Pricing, Unannounced customers/users, undisclosed security/performance issues.
+- We don't make forward looking statements:
+  - Feature release, product strategy and prioritization.
+  - The single source of truth for this is our [Public Roadmap](#public-roadmap). If we are unsure, we ping the product team for clarification.
+- We are honest and transparent. We don't participate with pseudonyms or anonymously, since we want to grow an honest, collaborative community.
+- It's better to wait a bit before jumping into a conversation. This is extremely important so that we give space to the community to respond to a question. Moreover, experienced engineers should allow the newer engineers to engage first, so that they have the chance to learn about the product first-hand.
+  
+
 # Documentation-first approach
 
 Having great documentation is a great way to both improve the developer experience and lower the support load, as users can become successful even when they find friction. This way, our users are able to get the information that they need, without having to rely on the community or the netdata team to help them out.
@@ -319,9 +345,47 @@ Moreover, this approach **ensures that our documentation is always the single so
 
 - We prefer to respond with a links to our docs whenever possible
 - If the docs are missing, we [create them](https://learn.netdata.cloud/contribute/documentation) and link the user to the PR.
-  - If the docs concern the closed-source Netdata Cloud, ping @joel who is heading our content and documentation efforts.
+  - If the docs concern the closed-source Netdata Cloud, we ping @joel who is heading our content and documentation efforts.
 
 Finally, if you encounter a particular support case that you believe has value, please ping @joel and let him know. It is possible that we will want to create some content to help more users (e.g a guide), so your help will be invaluable.
+
+
+# Tips For Engaging In The Community 
+
+Some general tips for engaging successfully with our Community.
+
+## Create Your Identity
+In order to get the most out of the Community and build your network, take five minutes to complete your community profile. Start by uploading your picture, description, industry, location, and products used. Take it one step further and link your social profiles such as LinkedIn, Twitter, and Facebook. 
+
+## Share Your Knowledge & Build Your Career
+Grow your network and resume by contributing value to the community in the form of blog articles, knowledge articles, and sharing knowledge in discussion threads. The more you share, the more value you will add to your career journey by demonstrating your expertise.
+
+Thanks to the power of SEO, your contributions will surface in search engine results for your name. Make the most of it!
+
+## Like And Share Valuable Content
+Help surface helpful information by liking and sharing content on the community, and with your customers outside of the community. As an expert in specific facets of our products and services, your vote matters and will be valued by our members.
+
+Please do not like or share controversial content or criticisms of the company. Escalate as needed through the proper channels.
+
+## Join Relevant Groups
+We highly encourage you to join and participate in virtual, local, industry, and feature-specific groups that are relevant to your experience and interests. Your presence in these groups will add even more value for our members and build their acumen for our products and services.
+
+## Use Search
+One of the most common ways our members find great info is through search. The search bar is located at the top of the page regardless of where you navigate in the Community. 
+
+- In `learn.netdata.cloud` the search bar searches across our entire documentation, corporate website, blog and GitHub (not issues though). 
+- In `community.netdata.cloud` the search bar searches across the whole forum.
+
+Teaching other members how to search is also important. ** Please do so with the heart of a teacher.**
+
+## Suggest And Vote On Internal Ideas
+
+#TODO Discuss and align internally on whether netdata team can participate in feature requests (create, vote, comment) and how we should handle it.
+
+Your expert opinion matters and we want to hear from you! Feel free to post, comment, and vote on ideas in the Internal Ideas area.
+
+We kindly ask that you refrain from suggesting, voting on, or otherwise engaging with the external customer idea exchange unless it is your role to do so. It can look a little strange if employees are voting on ideas that are critical of existing functionality or strategic direction. Employee participation there could also be considered “forward looking” information.
+
 
 # Example answers to common situations
 
@@ -435,3 +499,4 @@ There is no Windows-native install package available at this point. However, WMI
 We are considering on-premise, however, on-premise will not be available in 2020. Since we are focusing on improving Netdata Cloud usability first, we are not prepared to share any plans about when and if an on-premise version of Netdata would be available at this time.
 
 ```
+

@@ -43,11 +43,10 @@ We have forked the theme components so that we can apply some changes to their C
 
 To setup the social logins, we follow the instructions on the meta.discourse.org topic of each plugin, linked above. 
 
-To retrieve the keys/secrets for each platform:
-- Github: We contact the Netdata GitHub admins and request the information for the Community app in the developers page.
-  - Source: 
-- Twitter: We contact Marketing and ask for the information (available [here](https://developer.twitter.com/en/dashboard), via the @linuxnetdata account).
-- Google: We contact the Netdata Gsuite administrator and request the credentials from the "Netdata Cloud" project.
+To retrieve the key/secret combination for each platform:
+- Github: Netdata Community GitHub App. Contact @cakrit
+- Twitter: Netdata Community project available at https://developer.twitter.com/en/dashboard. Contact @odyslam or the marketing team.
+- Google: "Netdata Cloud" project. Contact @cakrit
 
 ## Slack
 
@@ -61,12 +60,12 @@ To retrieve the keys/secrets for each platform:
 ## Data Explorer
 We are using the [Data Explorer Plugin](https://meta.discourse.org/t/data-explorer-plugin/32566) to extract insights and meaningful metrics about the community, directly from the forum PostgreSQL database.
 
-The queries can be found in the [Data Explorer queries](/community/Data-Explorer-queries) directory.
+The queries can be found in the [Data Explorer queries](/community/Data-Explorer-queries) directory and can be easily imported to the Data Explorer plugin.
 
 # Forum organization
 
-- Design choices of categories, subcategories
-- Use of templates
+#TODO add forum copy
+#TODO add link to community integrations page + explanation
 
 # Categories
 
@@ -116,3 +115,18 @@ We are currently using 2 communityCRM to monitor the community and improve our t
 
 - SavannahHQ: https://savannahhq.com/
 - Orbit.love: https://app.orbit.love
+
+# Backups
+
+Hosted Discourse is automatically bucking up our instance. **To restore** a backup, we contact Discourse Support and make an official request for backup restore.
+
+To manually perform a backup and import it to a local instance (e.g staging for development), we follow the [official Discourse docs](https://meta.discourse.org/t/create-download-and-restore-a-backup-of-your-discourse-database/122710).
+
+# Staging
+
+We are hosting a staging discourse instance for development reasons on staging.community.netdata.cloud.
+
+It is advised to use real-life data on staging, before importing the changes to the production instance. To do that, download a recent backup from production, restore the backup following the [documentation](https://meta.discourse.org/t/create-download-and-restore-a-backup-of-your-discourse-database/122710) and finally test the changes. The backup import will create an identical clone of the hosted discourse instance.
+
+**Disclaimer:**
+- In order for the import to function as expected, we need to have installed all the required plugins on the self-hosted Discourse instance. These plugins are automatically enabled on hosted, but they need to be manually installed on self-hosted.

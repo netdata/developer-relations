@@ -221,7 +221,8 @@ As an engineer and Netdata team member:
    1. You want to personally handle it, later on. So you respond to the user that you will reply later, you [assign](#assign-a-topic) it to **yourself** and the rest of the team knows that is being handled.
    2. You are a team leader and you want a team member to handle a particular topic.
 6. If the topic is a question or request for assistance, [triage the issue](#how-to-triage-an-issue)
-7. We have [documentation-first approach](#documentation-first approach)
+7. We stay true to our [documentation-first approach](#documentation-first approach).
+8. Finally, we ask the user to [mark](https://ommunity.netdata.cloud/t/how-to-submit-a-good-question/469#Somebody%E2%80%99s%20answer%20solved%20it!) the topic that solved their question.
 
 ## How we triage an issue
 

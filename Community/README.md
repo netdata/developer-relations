@@ -130,3 +130,10 @@ It is advised to use real-life data on staging, before importing the changes to 
 
 **Disclaimer:**
 - In order for the import to function as expected, we need to have installed all the required plugins on the self-hosted Discourse instance. These plugins are automatically enabled on hosted, but they need to be manually installed on self-hosted.
+
+
+# Legal
+
+- Terms of Service: https://www.netdata.cloud/terms/
+- Privacy Policy: https://www.netdata.cloud/privacy/
+- Code of Conduct: https://learn.netdata.cloud/contribute/code-of-conduct

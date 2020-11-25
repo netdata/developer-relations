@@ -246,8 +246,8 @@ As an engineer and Netdata team member:
 # How we respond to users
 
 - We write short and sweet responses. No need to write a lot, but we are kind.
-- Don’t be too short; We Avoid “Yes” and “Yes, thanks”. 
-- We are **honest**, if we don't know something, we say so. If we need to do some additional research or we need the help of a colleague, great, we ping them. Nobody expects us to be omnipotent and omniscient.
+- We prefer not to be too short; We Avoid “Yes” and “Yes, thanks”. 
+- We are **honest**, if we don't know something, we say so. If we need to do some additional research or we need the help of a colleague, great, we ping them on the forum. Nobody expects us to be omnipotent and omniscient.
 - We share the debugging experience with the user, we share what you did and did or didn't work. Our users are engineers, which mean that they are curious people. They are as much interested in solving the problem as they are interested in understanding what went wrong and how you solved it.
 - We try to address all the points of the users. Using bullet points works for everyone.
 - We make sure that we acknowledge how they feel.

@@ -60,6 +60,7 @@ The community provides us with:
   - [Join Relevant Groups](#join-relevant-groups)
   - [Use Search](#use-search)
   - [Suggest And Vote On Internal Ideas](#suggest-and-vote-on-internal-ideas)
+- [How to handle violations of CoC](#how-to-handle-violations-of-coc)
 - [Example answers to common situations](#example-answers-to-common-situations)
   - [Debugging an issue](#debugging-an-issue)
     - [Reinstall Netdata](#reinstall-netdata)
@@ -123,7 +124,7 @@ In order to facilitate the engagement with the community, please ensure that:
 - [ ] You request from an administrator or moderator to add you to the appropriate functional group.
 - [ ] Your account has a profile picture and a short bio.
 - [ ] You join the #discourse-support slack channel. All new topics and posts from the categories (support, support-agent, support-cloud) are mirrored there.
-- [ ] You have familiarized yourself with the [Netdata Community Code of Conduct](https://learn.netdata.cloud/contribute/code-of-conduct) that govern interactions for all members.
+- [ ] You have familiarized yourself with the [Netdata Community Code of Conduct](https://learn.netdata.cloud/contribute/code-of-conduct) that govern interactions for all members. Read [How to handle violations](#how-to-handle-violations-coc)
 
 # Support
 
@@ -386,6 +387,15 @@ Teaching other members how to search is also important. ** Please do so with the
 Your expert opinion matters and we want to hear from you! Feel free to post, comment, and vote on ideas in the Internal Ideas area.
 
 We kindly ask that you refrain from suggesting, voting on, or otherwise engaging with the external customer idea exchange unless it is your role to do so. It can look a little strange if employees are voting on ideas that are critical of existing functionality or strategic direction. Employee participation there could also be considered “forward looking” information.
+
+
+# How to handle violations of CoC
+
+The [Code of Conduct](https://learn.netdata.cloud/contribute/code-of-conduct) is very important, as it's the "contract" that we sign with our community members, offering them a welcoming and inclusive environment to everyone. Violations of the Code of Conduct can easily create toxicity inside a community, damaging the credibility that we have worked hard to create with our users.
+
+When we see a message or interaction that we believe that it goes against the Code of Conduct, we immediately inform the Developer Relations team to handle the incident.
+
+Moreover, this [blog post](https://thagomizer.com/blog/2017/09/29/we-don-t-do-that-here.html) might prove a useful resource for setting clear boundaries in a kind and understanding way. 
 
 
 # Example answers to common situations

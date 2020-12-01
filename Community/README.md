@@ -4,7 +4,7 @@ The second iteration of Netdata's Community uses [Discourse](https://github.com/
 
 [Netdata Community](https://community.netdata.cloud)
 
-# Discourse setupcd 
+# Discourse setup
 
 ## Hosting
 Netdata Community is using the [hosted version](https://www.discourse.org/pricing) of Discourse.
@@ -122,16 +122,6 @@ We are currently using 2 communityCRM to monitor the community and improve our t
 Hosted Discourse is automatically bucking up our instance. **To restore** a backup, we contact Discourse Support and make an official request for backup restore.
 
 To manually perform a backup and import it to a local instance (e.g staging for development), we follow the [official Discourse docs](https://meta.discourse.org/t/create-download-and-restore-a-backup-of-your-discourse-database/122710).
-
-# Staging
-
-We are hosting a staging discourse instance for development reasons on staging.community.netdata.cloud.
-
-It is advised to use real-life data on staging, before importing the changes to the production instance. To do that, download a recent backup from production, restore the backup following the [documentation](https://meta.discourse.org/t/create-download-and-restore-a-backup-of-your-discourse-database/122710) and finally test the changes. The backup import will create an identical clone of the hosted discourse instance.
-
-**Disclaimer:**
-- In order for the import to function as expected, we need to have installed all the required plugins on the self-hosted Discourse instance. These plugins are automatically enabled on hosted, but they need to be manually installed on self-hosted.
-
 
 # Legal
 

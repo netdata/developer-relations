@@ -37,6 +37,7 @@ We have forked the theme components so that we can apply some changes to their C
 -  Brand header: https://github.com/netdata/discourse-brand-header
 -  Easy footer: https://github.com/netdata/Discourse-easy-footer
 -  Google fonts: https://github.com/netdata/discourse-google-font-component
+-  Kanban theme component: https://github.com/discourse/discourse-kanban-theme
 
 
 ## Logins
@@ -55,7 +56,9 @@ To retrieve the key/secret combination for each platform:
 
 ### Topics
 
-- Currently, we mirror the `support`, `support/netdata-agent` and `support/netdata-cloud` categories and subcategories respectively in the `#discourse-support` channel. This is to enable the engineers to easily hop into new topics from a platform that they are already using.
+- We mirror the `support`, `support/netdata-agent` and `support/netdata-cloud` categories and subcategories respectively in the `#discourse-support` channel. This is to enable the engineers to easily hop into new topics from a platform that they are already using.
+- We mirror the `feature requests`, `feature requests/netdata agent feature requests` and `feature requests/netdata cloud feature requests` category and subcategories respectively in the `#discourse-feature-requests` channel. This is to enable the product team to easily keep track of feature requests.
+
 
 ## Data Explorer
 We are using the [Data Explorer Plugin](https://meta.discourse.org/t/data-explorer-plugin/32566) to extract insights and meaningful metrics about the community, directly from the forum PostgreSQL database.
@@ -63,9 +66,6 @@ We are using the [Data Explorer Plugin](https://meta.discourse.org/t/data-explor
 The queries can be found in the [Data Explorer queries](/community/Data-Explorer-queries) directory and can be easily imported to the Data Explorer plugin.
 
 # Forum organization
-
-#TODO add forum copy
-#TODO add link to community integrations page + explanation
 
 # Categories
 
@@ -105,17 +105,24 @@ We have added 2 user fields. `Company` to be able to better understand our users
 
 We are using Hubspot to offer feedback surveys. In order to activate Hubspot, we need to:
 1) Follow this [guide](https://knowledge.hubspot.com/customer-feedback/create-and-send-customer-satisfaction-surveys) to create the Hubspot survey. 
-2) Follow this [guide](https://meta.discourse.org/t/hubspot-chat-integration/128777) and edit the `content security policy script src` whitelist. 
-   1) For the scripts with source `https://js.hs-analytics.net/*`, we use the wildcard instead of the specific source, because they keep changing sources. 
+2) Follow this [guide](https://meta.discourse.org/t/hubspot-chat-integration/128777) and edit the `content security policy script src` whitelist. The list of urls that we will need to add are listed in the [Confluence page](https://netdata.atlassian.net/wiki/spaces/MAR/pages/534216808/Community+Forum+sensitive+data) of the Netdata forum, accessible only be the Netdata team.
 
-The tracking code for hubspot is already integrated into the main Netdata theme, so we don't need to edit the theme.
+# Integrations
 
-# Community CRMs
+The Community, serving as the centerpiece of the community, produces important data for both our community and our support process. As such, it is tightly integrated into Netdata's data warehouse and company CRM. 
+
+You can read more about the integrations in the [Community Integrations](https://netdata.atlassian.net/wiki/spaces/MAR/pages/399343750/Community+Integrations) confluence page, which is only accessible by the Netdata team.
+
+- Contact @odyslam for specifics on the data strategy
+- Contact @andrewm4894 for specifics on the implementation
+
+
+## Community CRMs
 
 We are currently using 2 communityCRM to monitor the community and improve our tactical decision making. To re-activate the integrations, go to the platforms and follow the instructions in their respective integrations page.
 
 - SavannahHQ: https://savannahhq.com/
-- Orbit.love: https://app.orbit.love
+- Orbit: https://app.orbit.love
 
 # Backups
 
